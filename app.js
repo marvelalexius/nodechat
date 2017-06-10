@@ -35,7 +35,7 @@ app.use(passport.session());
 passport.use(new facebookStrategy({
 		clientID: '1924942854416036',
 		clientSecret: '7346a27c8f704508c2802de652f9067a',
-		callbackURL: "http://localhost:3000/auth/facebook/callback"
+		callbackURL: "https://lintagram.heroku.com/auth/facebook/callback"
 
 	},
 
